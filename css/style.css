@@ -1,0 +1,285 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+nav {
+  margin-top: 20px;
+  margin-left: 170px;
+}
+
+.mastery i {
+  float: left;
+  font-size: 20px;
+  margin-right: 10px;
+  text-align: center;
+  padding: 10px;
+  color: #fdc906;
+  background-color: #002146;
+  border-radius: 50%;
+  width: 42px;
+  height: 42px;
+}
+
+.navigation {
+  margin: 20px;
+}
+
+.navigation p {
+  float: left;
+  margin-right: 20px;
+}
+
+.clear {
+  clear: both;
+}
+
+.main {
+  width: 100%;
+  background-image: url("../images/2.jpg");
+  background-size: cover;
+  background-position: top;
+  height: 87.2vh;
+}
+
+.welcome {
+  padding-top: 50px;
+  margin-bottom: 100px;
+}
+.welcome--left {
+  width: 50%;
+  padding-left: 170px;
+  float: left;
+}
+
+.welcome--left button {
+  background-color: #fdc906;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 17px;
+  font-weight: 700;
+  border: none;
+}
+
+.welcome--left p {
+  margin: 30px 0;
+  color: #8d8d8d;
+}
+
+.statistic {
+  background-color: #f6f6f6;
+  width: 100%;
+  height: 170px;
+  padding-left: 170px;
+}
+
+.statistic__detail {
+  float: left;
+  height: 100%;
+  width: 25%;
+}
+
+.statistic__detail h1,
+.statistic__detail div {
+  float: left;
+  text-transform: uppercase;
+  position: relative;
+  top: 50%;
+  transform: translateX(-50%);
+  transform: translateY(-50%);
+}
+
+.statistic__detail h1 {
+  font-size: 50px;
+  margin-right: 15px;
+}
+
+.categories {
+  margin-top: 25px;
+  padding-left: 170px;
+  padding-top: 70px;
+}
+
+.card {
+  color: white;
+  width: 20%;
+  background-color: #002146;
+  height: 200px;
+  float: left;
+  margin: 0 1.5% 0 1.5%;
+  padding-top: 20px;
+  border-radius: 10px;
+}
+
+.card p,
+.card i {
+  text-align: center;
+  position: relative;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card i {
+  margin-top: 10px;
+  font-size: 50px;
+}
+
+.card p {
+  margin-top: 20px;
+  font-size: 22px;
+}
+.card:first-child {
+  margin: 0;
+}
+
+.info {
+  margin-top: 100px;
+  padding: 100px 0;
+  background-color: #f6f6f6;
+}
+
+.posts {
+  width: 50%;
+  float: left;
+  background-color: #f6f6f6;
+  position: relative;
+}
+
+.posts h1 {
+  margin: 0 0 20px 170px;
+}
+
+.posts__item {
+  margin-left: 170px;
+  background-color: white;
+  border: 1px solid #f6f6f6;
+  padding: 15px;
+}
+
+.posts__item img {
+  width: 30%;
+  float: left;
+  border-radius: 5px;
+  height: 100%;
+}
+.posts__info {
+  float: right;
+  width: 65%;
+}
+
+.posts__info p {
+  margin: 25px 0;
+  font-size: 16px;
+}
+
+.view-all {
+  background-color: #fdc906;
+  width: 120px;
+  height: 45px;
+  border-radius: 5px;
+  font-size: 17px;
+  font-weight: 700;
+  border: none;
+  margin-top: 20px;
+  float: right;
+}
+
+.event {
+  width: 45%;
+  float: left;
+  padding-left: 50px;
+}
+
+.event__item {
+  margin-top: 20px;
+  background-color: white;
+  border: 1px solid #f6f6f6;
+  padding: 30px;
+  height: 300px;
+}
+
+.event__item--left {
+  width: 13%;
+  display: inline-block;
+  height: 60%;
+  float: left;
+}
+
+.date {
+  background-color: #fdc906;
+  text-align: center;
+  height: 100px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.date h1,
+.date p {
+  line-height: 50px;
+}
+
+.year {
+  background-color: #002146;
+  color: white;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.event__item--right {
+  margin-left: 50px;
+  float: left;
+  width: 60%;
+}
+
+.event__item--right p {
+  margin-top: 30px;
+}
+
+.event__item--right p:last-child {
+  color: #002146;
+}
+
+.footer {
+  padding: 50px 100px 50px 170px;
+  background-color: #002146;
+  color: white;
+}
+
+.contact {
+  float: left;
+  width: 30%;
+}
+
+.contact i {
+  color: #fdc906;
+  margin-right: 15px;
+}
+
+.contact p {
+  margin-top: 10px;
+}
+
+.dash {
+  border-bottom: 1px solid #f6f6f6;
+  padding-bottom: 50px;
+}
+
+.copyright {
+  margin-top: 20px;
+}
